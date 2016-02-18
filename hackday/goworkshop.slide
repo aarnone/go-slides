@@ -1,0 +1,96 @@
+Go PLIBMTTBHGATY
+programming  languages  i've  been  meaning  to  try  but  haven't  gotten  around  to  yet
+
+19 Feb 2016
+Tags: overview, workshop
+
+Alessandro Arnone
+Software Engineer... and Go enthusiastic ;)
+alessandro.arnone@mendeley.com
+
+
+
+* Why should we learn Go?
+
+It's a language that [[https://talks.golang.org/2015/simplicity-is-complicated.slide][embrace simplicity]]
+
+It promotes a completely different approach to programming ⇒ mind exercise
+
+It's surprisingly flexible, you can build many [[https://github.com/avelino/awesome-go/blob/master/README.md][disparate things]]
+These slides are actually presented using a go tool
+
+Companies started to adopt it quite seriously, it's not an "hippie language"
+
+It must worth something: Google designed it to solve its own problems, which are way bigger than ours!
+
+The logo is sooooo cute! :)
+
+* The Gopher
+.image gopher.svg _ 350
+.caption _Gopher_ by [[http://www.reneefrench.com][Renée French]]
+
+* even cuter!
+
+* Sir Gopher
+.image gopher_uk.svg _ 350
+
+
+* Cool stuff Go is offering
+
+- Quick to master
+
+- Easy to read - if written following the _idomatic_style_
+
+- Builds take literally seconds
+
+- Strong concurrency model
+
+- Test, coverage and benchmark are native to the language
+
+- Quite rich SDK and documentation
+
+- A lot of libraries around
+
+- Native performance! [[http://www.iron.io/go-after-2-years-in-production/]]
+
+- Tooling that can do great things
+
+
+
+
+* Cool stuff Go is NOT offering and that you are not allowed to miss
+
+- Generics, generics and also generics. Most of the time you'll be swearing after this.
+
+- Full featured package manager, like npm. (vendoring still makes eyes rolling)
+
+- Objects, classes, etc.
+
+- Automatic type conversion for primitive types and slices
+
+- Generics. You will really cry for them.
+
+- Method overloading!!!!
+
+- Exceptions, or any other way to deal with the errors
+
+- Tooling that can do great things *and*production*ready*
+
+- Did I mention generics?
+
+
+* What can we do to get started
+
+
+You probably want to set up a working environment, which means:
+
+- install go
+- set up a workspace
+- use some tool to write the code (I like [[https://atom.io/][Atom]] editor with [[https://atom.io/packages/go-plus][go-plus plugin]])
+
+And then you can:
+
+- follow the [[https://tour.golang.org][tour]] to get familiar with the syntax
+- play with some of the many libraries you can find on github
+- follow a quick tutorial like [[http://thenewstack.io/make-a-restful-json-api-go/][this one]]
+- explore some more weird features like [[http://goa.design/][code generation applied to REST APIs]]
